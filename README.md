@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="numa-banner.png" alt="NUMA Banner" width="100%" />
+</p>
 ![Banner de Numa](docs/numa-banner.png)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
