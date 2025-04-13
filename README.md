@@ -1,59 +1,58 @@
-<p align="center">
-  <img src="numa-banner.png" alt="NUMA Banner" width="100%" />
-</p>
-![Banner de Numa](docs/numa-banner.png)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Banner de Numa](https://github.com/Marie-25shue/Numa-bot/blob/main/docs/numa-banner.png?raw=true)
 
-# Numa — Chatbot con Propósito
+# NUMA – Chatbot de ayuda emocional con propósito humano 🤖💙  
+*(Proyecto en desarrollo activo | Desarrollado por Mariela Rajoy)*  
 
-**Numa** es un proyecto personal de inteligencia artificial desarrollado por Mariela Rajoy. Su propósito es explorar cómo el procesamiento del lenguaje natural (NLP) y las herramientas de automatización pueden brindar apoyo real en contextos sensibles como salud mental, acompañamiento emocional y situaciones de vulnerabilidad.
+## 🧭 Descripción (ES)  
+NUMA es un chatbot de acompañamiento emocional creado para ofrecer contención y orientación a personas vulnerables.  
+Está desarrollado en Python, usa flujos conversacionales en JSON y se conecta vía Telegram.
 
----
+NUMA no reemplaza ayuda profesional, pero es un primer paso cálido y empático. Aborda situaciones como:  
+- Soledad  
+- Agotamiento  
+- Migración  
+- Ayuda urgente  
+- Enfermedad y esperanza  
 
-## 🚀 Cómo usar este proyecto
-
-1. Cloná el repositorio:
-   ```bash
-   git clone https://github.com/mariegratia/numa-chatbot.git
-   cd numa-chatbot
-   ```
-
-2. Ejecutá localmente:
-   ```bash
-   python src/numa_handler.py
-   ```
-
-3. Explorá el flujo:
-   - Ver el archivo [`estructura-flujo.json`](estructura-flujo.json)
+Cada conversación está diseñada con sensibilidad, accesibilidad y seguimiento posterior para no dejar sola a la persona.
 
 ---
 
-## 📌 Estado del Proyecto
+## 🌍 Description (EN)  
+NUMA is an emotional support chatbot built to offer empathy, orientation, and a safe first step for vulnerable individuals.  
+Developed in Python, it uses structured JSON flows and connects through Telegram.
 
-- [x] Identidad y nombre definidos  
-- [x] Lógica básica en Python (`numa_handler.py`)  
-- [x] Estructura de flujos en JSON (`estructura-flujo.json`)  
-- [ ] Integración con APIs (GPT-4o en progreso)  
-- [ ] Conexión con Power Automate / Make  
-- [ ] Documentación técnica extendida  
+NUMA doesn’t replace professional help but offers a warm, human-centered starting point. Topics include:  
+- Loneliness  
+- Burnout  
+- Migration  
+- Urgent help  
+- Illness and hope  
 
----
-
-## 🛠 Tecnologías utilizadas
-
-- Python
-- JSON para flujos conversacionales
-- Make / Power Automate (planificado)
-- GPT-4o (OpenAI, planificado)
+The bot includes follow-up mechanisms to ensure continuous support after the first contact.
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está licenciado bajo los términos de la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más información.
+## 🛠️ Tecnologías utilizadas / Technologies used  
+- Python  
+- JSON (flow structure)  
+- Telegram Bot API  
+- Make (workflow automation)  
+- GitHub (open documentation)  
 
 ---
 
-## ✨ Créditos
-
-Creado por **Mariela Rajoy** — Ingeniera de Datos y aprendiz de IA con propósito humano.
+## 📦 Estructura del Proyecto / Project Structure  
+```plaintext
+NUMA/
+├── flows/
+│   ├── soledad.json
+│   ├── agotamiento.json
+│   ├── migracion.json
+│   ├── ayuda_urgente.json
+│   └── enfermedad_esperanza.json
+├── requirements.txt
+├── .env (no incluido)
+├── bot.py
+├── README.md
+└── LICENSE
