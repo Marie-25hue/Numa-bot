@@ -1,4 +1,4 @@
-![Banner de Numa](https://github.com/Marie-25shue/Numa-bot/blob/main/docs/numa-banner.png?raw=true)
+![Banner de Numa](https://github.com/Marie-25hue/Numa-bot/blob/main/docs/numa-banner.png?raw=true)
 
 # NUMA – Chatbot de ayuda emocional con propósito humano 🤖💙  
 *(Proyecto en desarrollo activo | Desarrollado por Mariela Rajoy)*  
