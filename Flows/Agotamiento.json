@@ -1,0 +1,17 @@
+{
+    "name": "Agotamiento",
+    "description": "Flujo de acompañamiento para personas que atraviesan agotamiento físico o emocional.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Estoy agotado",
+            "response": "Debe ser muy duro sentirte así. ¿Querés que respiremos juntos un momento para calmar un poco el cansancio?"
+        },
+        {
+            "id": 2,
+            "input": "Sí",
+            "response": "Perfecto. Cerremos los ojos un momento... Inspirá profundo por la nariz... y exhalá lento por la boca. (Podés repetirlo unas tres veces.) Cuando quieras, podemos seguir conversando."
+        },
+        {
+            "id": 3,
+            "input": "
