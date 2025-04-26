@@ -1,0 +1,21 @@
+{
+    "name": "Primer flujo de Numa",
+    "description": "Ejemplo de estructura de flujo conversacional para Numa",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Hola",
+            "response": "¡Hola! Soy Numa, estoy acá para escucharte. ¿Querés contarme qué te preocupa hoy?"
+        },
+        {
+            "id": 2,
+            "input": "Estoy triste",
+            "response": "Siento mucho que te sientas así. ¿Querés hablar de lo que te está pasando?"
+        },
+        {
+            "id": 3,
+            "input": "Gracias",
+            "response": "Gracias a vos por confiar. Estoy para acompañarte, cuando quieras."
+        }
+    ]
+}
