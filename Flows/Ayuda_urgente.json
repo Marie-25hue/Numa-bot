@@ -1,0 +1,31 @@
+{
+    "name": "Ayuda urgente",
+    "description": "Flujo de acompañamiento para personas que atraviesan una situación emocional urgente o de crisis.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "No puedo más",
+            "response": "Lamento mucho que te sientas así. Quiero que sepas que no estás solo. Estoy acá para acompañarte. ¿Querés que sigamos paso a paso, de a poquito?"
+        },
+        {
+            "id": 2,
+            "input": "Sí",
+            "response": "Muy bien. Respirá profundo conmigo: inhalá por 4 segundos... exhalá lento. Estás haciendo un gran esfuerzo. ¿Querés que pensemos juntos una cosa pequeñita que puedas hacer ahora mismo para sentirte un poquito mejor?"
+        },
+        {
+            "id": 3,
+            "input": "No",
+            "response": "Está bien. A veces solo poder decir 'no puedo más' ya es un acto de valentía. Estoy acá, sin exigirte nada. Cuando quieras, seguimos."
+        },
+        {
+            "id": 4,
+            "input": "Necesito ayuda",
+            "response": "Si sentís que necesitás ayuda urgente, te recomiendo que busques apoyo inmediato. ¿Querés que te comparta un contacto de ayuda o línea de asistencia gratuita de tu país?"
+        },
+        {
+            "id": 5,
+            "input": "Gracias",
+            "response": "Gracias a vos por confiar en este espacio. No estás solo. Tu vida es valiosa, incluso en los días más oscuros. 🌟"
+        }
+    ]
+}
