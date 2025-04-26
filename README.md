@@ -1,4 +1,13 @@
-![Banner de Numa](https://github.com/Marie-25hue/Numa-bot/blob/main/docs/numa-banner.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Marie-25hue/Numa-bot/blob/main/docs/numa-banner.png?raw=true" width="700px"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-In_Development-blue"/>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue"/>
+  <img src="https://img.shields.io/badge/License-MIT-green"/>
+  <img src="https://img.shields.io/badge/Made_with-%E2%9D%A4-lightgrey"/>
+</p>
 
 # NUMA – Chatbot de ayuda emocional con propósito humano 🤖💙  
 *(Proyecto en desarrollo activo | Desarrollado por Mariela Rajoy)*  
