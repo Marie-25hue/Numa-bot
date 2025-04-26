@@ -1,17 +1,29 @@
+import json
+import os
 
-# numa_handler.py
+# Cargar flujos desde la carpeta flows/
+def cargar_flows():
+    respuestas = {}
+    flows_folder = os.path.join(os.path.dirname(__file__), '..', 'flows')
+    
+    for archivo in os.listdir(flows_folder):
+        if archivo.endswith(".json"):
+            with open(os.path.join(flows_folder, archivo), encoding='utf-8') as f:
+                flujo = json.load(f)
+                for paso in flujo["steps"]:
+                    entrada = paso["input"].lower().strip()
+                    respuestas[entrada] = paso["response"]
+    return respuestas
 
-def responder_entrada(entrada):
-    respuestas = {
-        "hola": "¡Hola! Soy Numa, estoy acá para escucharte. ¿Querés contarme qué te preocupa hoy?",
-        "estoy triste": "Siento mucho que te sientas así. ¿Querés hablar de lo que te está pasando?",
-        "gracias": "Gracias a vos por confiar. Estoy para acompañarte, cuando quieras."
-    }
+# Responder entrada del usuario
+def responder_entrada(entrada, respuestas):
     entrada_normalizada = entrada.lower().strip()
     return respuestas.get(entrada_normalizada, "Perdón, ¿podés repetirlo? Estoy aprendiendo a entender mejor.")
 
 if __name__ == "__main__":
+    respuestas = cargar_flows()
+    print("¡Hola! Soy NUMA 🤖💙. Contame, ¿cómo te sentís hoy?")
     while True:
         mensaje = input("Vos: ")
-        respuesta = responder_entrada(mensaje)
+        respuesta = responder_entrada(mensaje, respuestas)
         print("Numa:", respuesta)
