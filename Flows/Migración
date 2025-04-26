@@ -1,0 +1,8 @@
+{
+    "name": "Migración",
+    "description": "Flujo de acompañamiento para personas que se encuentran lejos de su país o su hogar.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Estoy lejos de casa",
+            "response": "Debe ser muy difícil estar lejos de lo conocido. Quiero que sepas que te entiendo y estoy acá para acompañarte. ¿Quer
