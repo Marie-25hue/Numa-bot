@@ -1,0 +1,31 @@
+{
+    "name": "Migración",
+    "description": "Flujo de acompañamiento para personas que se encuentran lejos de su país o su hogar.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Estoy lejos de casa",
+            "response": "Debe ser muy difícil estar lejos de lo conocido. Quiero que sepas que te entiendo y estoy acá para acompañarte. ¿Querés contarme qué es lo que más extrañás?"
+        },
+        {
+            "id": 2,
+            "input": "Mi familia",
+            "response": "La familia es un pilar muy grande. Es natural extrañarlos. ¿Querés que hablemos de algún recuerdo lindo que tengas con ellos?"
+        },
+        {
+            "id": 3,
+            "input": "Mi país",
+            "response": "Extrañar tu tierra muestra cuánto amor llevás en el corazón. ¿Querés que hablemos de algún lugar especial que siempre recuerdes?"
+        },
+        {
+            "id": 4,
+            "input": "No quiero hablar",
+            "response": "Está bien. No hace falta que digas nada si no querés. A veces, solo saber que alguien está presente ya es suficiente."
+        },
+        {
+            "id": 5,
+            "input": "Gracias",
+            "response": "Gracias a vos por confiar este momento. Aunque estés lejos, tu historia sigue escribiéndose, y nunca estás realmente solo. 🌟"
+        }
+    ]
+}
