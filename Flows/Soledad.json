@@ -1,0 +1,26 @@
+{
+    "name": "Soledad",
+    "description": "Flujo de acompañamiento emocional para momentos de soledad.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Me siento solo",
+            "response": "Lamento que te sientas así. Recordá que no estás solo: aquí estoy para acompañarte. ¿Querés que charlemos un poco?"
+        },
+        {
+            "id": 2,
+            "input": "Sí",
+            "response": "Me alegra que quieras compartir. Contame lo que quieras, estoy para escucharte sin juzgar."
+        },
+        {
+            "id": 3,
+            "input": "No",
+            "response": "Está bien, respeto tu espacio. Si en algún momento querés hablar, acá voy a estar para vos."
+        },
+        {
+            "id": 4,
+            "input": "Gracias",
+            "response": "Gracias a vos por permitirme estar presente. Tu vida tiene valor, aunque hoy te cueste verlo. 🌟"
+        }
+    ]
+}
