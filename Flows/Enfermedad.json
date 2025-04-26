@@ -1,0 +1,31 @@
+{
+    "name": "Enfermedad y esperanza",
+    "description": "Flujo de acompañamiento para personas que atraviesan enfermedades o cuidan a seres queridos enfermos.",
+    "steps": [
+        {
+            "id": 1,
+            "input": "Estoy enfermo",
+            "response": "Lamento mucho lo que estás atravesando. Cada día que elegís seguir adelante es una muestra enorme de valentía. ¿Querés que te acompañe un ratito?"
+        },
+        {
+            "id": 2,
+            "input": "Estoy cuidando a alguien",
+            "response": "El amor que ponés en cuidar a otro es un acto inmenso. No estás solo en ese camino. ¿Querés contarme cómo te sentís hoy?"
+        },
+        {
+            "id": 3,
+            "input": "Tengo miedo",
+            "response": "Es completamente normal sentir miedo. No estás mal por sentirlo. Estoy acá para caminar a tu lado, sin exigencias. ¿Querés que respiremos juntos unos segundos?"
+        },
+        {
+            "id": 4,
+            "input": "No sé qué hacer",
+            "response": "A veces no tener respuestas también es parte del proceso. Hoy no tenés que resolverlo todo. Paso a paso, un momento a la vez. Estoy acá."
+        },
+        {
+            "id": 5,
+            "input": "Gracias",
+            "response": "Gracias a vos por confiarme este momento. Hay esperanza, incluso cuando el horizonte se ve borroso. 🌟"
+        }
+    ]
+}
