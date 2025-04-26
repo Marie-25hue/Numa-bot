@@ -42,20 +42,26 @@ The bot includes follow-up mechanisms to ensure continuous support after the fir
 
 ---
 
-## 📦 Estructura del Proyecto / Project Structure  
-```plaintext
-NUMA/
-├── flows/
-│   ├── soledad.json
-│   ├── agotamiento.json
-│   ├── migracion.json
-│   ├── ayuda_urgente.json
-│   └── enfermedad_esperanza.json
-├── requirements.txt
-├── .env (no incluido)
-├── bot.py
-├── README.md
-└── LICENSE
+## 📦 Estructura del Proyecto / Project Structure
+
+```mermaid
+graph TD
+    NUMA[NUMA/]
+    NUMA --> FLOWS[flows/]
+    FLOWS --> Soledad[soledad.json]
+    FLOWS --> Agotamiento[agotamiento.json]
+    FLOWS --> Migracion[migracion.json]
+    FLOWS --> AyudaUrgente[ayuda_urgente.json]
+    FLOWS --> EnfermedadEsperanza[enfermedad_esperanza.json]
+    NUMA --> requirements[requirements.txt]
+    NUMA --> env[.env]
+    NUMA --> bot[bot.py]
+    NUMA --> readme[README.md]
+    NUMA --> license[LICENSE]
+```
+
+*Nota: el archivo .env no se incluye en el repositorio.*
+
 ---
 
 ## 🔮 Futuro del proyecto / Project roadmap
@@ -82,8 +88,8 @@ NUMA/
 - 🧠 **Natural Language Processing (NLP)**: to improve understanding and make interactions more natural.  
 - 🌐 **Web version (WordPress or similar)**: to make NUMA accessible beyond Telegram via a public website.
 
----- ♿ **Accesibilidad y usabilidad universal**: NUMA está siendo diseñado con enfoque en accesibilidad digital. Queremos asegurar que sea usable por personas con discapacidades visuales u otras condiciones, mediante compatibilidad con lectores de pantalla, navegación clara y flujos comprensibles sin necesidad de clasificaciones forzadas.
-
 ---
 
-- ♿ **Accessibility and inclusive design**: NUMA is being developed with a focus on digital accessibility. We aim to ensure usability for people with visual impairments or other conditions, by supporting screen readers, offering clear navigation, and designing flows that do not require forced classifications.
+♿ **Accesibilidad y usabilidad universal**: NUMA está siendo diseñado con enfoque en accesibilidad digital. Queremos asegurar que sea usable por personas con discapacidades visuales u otras condiciones, mediante compatibilidad con lectores de pantalla, navegación clara y flujos comprensibles sin necesidad de clasificaciones forzadas.
+
+♿ **Accessibility and inclusive design**: NUMA is being developed with a focus on digital accessibility. We aim to ensure usability for people with visual impairments or other conditions, by supporting screen readers, offering clear navigation, and designing flows that do not require forced classifications.
